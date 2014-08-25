@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8218FA4619AADC0400C62234 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8218FA4519AADC0400C62234 /* main.swift */; };
+		8218FA4819AADC0400C62234 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8218FA4719AADC0400C62234 /* Document.swift */; };
+		8218FA4B19AADC0400C62234 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8218FA4919AADC0400C62234 /* Document.xib */; };
+		8218FA4D19AADC0400C62234 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8218FA4C19AADC0400C62234 /* Images.xcassets */; };
+		8218FA5019AADC0400C62234 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8218FA4E19AADC0400C62234 /* MainMenu.xib */; };
+		8218FA5C19AADC0400C62234 /* ApkInstallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8218FA5B19AADC0400C62234 /* ApkInstallerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8218FA5619AADC0400C62234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8218FA3819AADC0400C62234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8218FA3F19AADC0400C62234;
+			remoteInfo = ApkInstaller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8218FA4019AADC0400C62234 /* ApkInstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApkInstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8218FA4419AADC0400C62234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8218FA4519AADC0400C62234 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8218FA4719AADC0400C62234 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		8218FA4A19AADC0400C62234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		8218FA4C19AADC0400C62234 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8218FA4F19AADC0400C62234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8218FA5519AADC0400C62234 /* ApkInstallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApkInstallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8218FA5A19AADC0400C62234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8218FA5B19AADC0400C62234 /* ApkInstallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApkInstallerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8218FA3D19AADC0400C62234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8218FA5219AADC0400C62234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8218FA3719AADC0400C62234 = {
+			isa = PBXGroup;
+			children = (
+				8218FA4219AADC0400C62234 /* ApkInstaller */,
+				8218FA5819AADC0400C62234 /* ApkInstallerTests */,
+				8218FA4119AADC0400C62234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8218FA4119AADC0400C62234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8218FA4019AADC0400C62234 /* ApkInstaller.app */,
+				8218FA5519AADC0400C62234 /* ApkInstallerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8218FA4219AADC0400C62234 /* ApkInstaller */ = {
+			isa = PBXGroup;
+			children = (
+				8218FA4719AADC0400C62234 /* Document.swift */,
+				8218FA4919AADC0400C62234 /* Document.xib */,
+				8218FA4C19AADC0400C62234 /* Images.xcassets */,
+				8218FA4E19AADC0400C62234 /* MainMenu.xib */,
+				8218FA4319AADC0400C62234 /* Supporting Files */,
+			);
+			path = ApkInstaller;
+			sourceTree = "<group>";
+		};
+		8218FA4319AADC0400C62234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8218FA4419AADC0400C62234 /* Info.plist */,
+				8218FA4519AADC0400C62234 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8218FA5819AADC0400C62234 /* ApkInstallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8218FA5B19AADC0400C62234 /* ApkInstallerTests.swift */,
+				8218FA5919AADC0400C62234 /* Supporting Files */,
+			);
+			path = ApkInstallerTests;
+			sourceTree = "<group>";
+		};
+		8218FA5919AADC0400C62234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8218FA5A19AADC0400C62234 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8218FA3F19AADC0400C62234 /* ApkInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8218FA5F19AADC0400C62234 /* Build configuration list for PBXNativeTarget "ApkInstaller" */;
+			buildPhases = (
+				8218FA3C19AADC0400C62234 /* Sources */,
+				8218FA3D19AADC0400C62234 /* Frameworks */,
+				8218FA3E19AADC0400C62234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApkInstaller;
+			productName = ApkInstaller;
+			productReference = 8218FA4019AADC0400C62234 /* ApkInstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8218FA5419AADC0400C62234 /* ApkInstallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8218FA6219AADC0400C62234 /* Build configuration list for PBXNativeTarget "ApkInstallerTests" */;
+			buildPhases = (
+				8218FA5119AADC0400C62234 /* Sources */,
+				8218FA5219AADC0400C62234 /* Frameworks */,
+				8218FA5319AADC0400C62234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8218FA5719AADC0400C62234 /* PBXTargetDependency */,
+			);
+			name = ApkInstallerTests;
+			productName = ApkInstallerTests;
+			productReference = 8218FA5519AADC0400C62234 /* ApkInstallerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8218FA3819AADC0400C62234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = MingWang;
+				TargetAttributes = {
+					8218FA3F19AADC0400C62234 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8218FA5419AADC0400C62234 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8218FA3F19AADC0400C62234;
+					};
+				};
+			};
+			buildConfigurationList = 8218FA3B19AADC0400C62234 /* Build configuration list for PBXProject "ApkInstaller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8218FA3719AADC0400C62234;
+			productRefGroup = 8218FA4119AADC0400C62234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8218FA3F19AADC0400C62234 /* ApkInstaller */,
+				8218FA5419AADC0400C62234 /* ApkInstallerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8218FA3E19AADC0400C62234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8218FA4B19AADC0400C62234 /* Document.xib in Resources */,
+				8218FA4D19AADC0400C62234 /* Images.xcassets in Resources */,
+				8218FA5019AADC0400C62234 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8218FA5319AADC0400C62234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8218FA3C19AADC0400C62234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8218FA4819AADC0400C62234 /* Document.swift in Sources */,
+				8218FA4619AADC0400C62234 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8218FA5119AADC0400C62234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8218FA5C19AADC0400C62234 /* ApkInstallerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8218FA5719AADC0400C62234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8218FA3F19AADC0400C62234 /* ApkInstaller */;
+			targetProxy = 8218FA5619AADC0400C62234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8218FA4919AADC0400C62234 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8218FA4A19AADC0400C62234 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		8218FA4E19AADC0400C62234 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8218FA4F19AADC0400C62234 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8218FA5D19AADC0400C62234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8218FA5E19AADC0400C62234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8218FA6019AADC0400C62234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ApkInstaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8218FA6119AADC0400C62234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ApkInstaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8218FA6319AADC0400C62234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApkInstallerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApkInstaller.app/Contents/MacOS/ApkInstaller";
+			};
+			name = Debug;
+		};
+		8218FA6419AADC0400C62234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApkInstallerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApkInstaller.app/Contents/MacOS/ApkInstaller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8218FA3B19AADC0400C62234 /* Build configuration list for PBXProject "ApkInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8218FA5D19AADC0400C62234 /* Debug */,
+				8218FA5E19AADC0400C62234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8218FA5F19AADC0400C62234 /* Build configuration list for PBXNativeTarget "ApkInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8218FA6019AADC0400C62234 /* Debug */,
+				8218FA6119AADC0400C62234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8218FA6219AADC0400C62234 /* Build configuration list for PBXNativeTarget "ApkInstallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8218FA6319AADC0400C62234 /* Debug */,
+				8218FA6419AADC0400C62234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8218FA3819AADC0400C62234 /* Project object */;
+}
