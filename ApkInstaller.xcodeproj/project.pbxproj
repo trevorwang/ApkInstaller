@@ -13,6 +13,11 @@
 		8218FA4D19AADC0400C62234 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8218FA4C19AADC0400C62234 /* Images.xcassets */; };
 		8218FA5019AADC0400C62234 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8218FA4E19AADC0400C62234 /* MainMenu.xib */; };
 		8218FA5C19AADC0400C62234 /* ApkInstallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8218FA5B19AADC0400C62234 /* ApkInstallerTests.swift */; };
+		8218FA7119AAE34F00C62234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8218FA7019AAE34F00C62234 /* AppDelegate.swift */; };
+		8218FAA019AB051F00C62234 /* aapt in Resources */ = {isa = PBXBuildFile; fileRef = 8218FA9D19AB051F00C62234 /* aapt */; };
+		8218FAA119AB051F00C62234 /* adb in Resources */ = {isa = PBXBuildFile; fileRef = 8218FA9E19AB051F00C62234 /* adb */; };
+		8218FAA219AB051F00C62234 /* apk.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8218FA9F19AB051F00C62234 /* apk.icns */; };
+		8218FAA419AB272900C62234 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8218FAA319AB272900C62234 /* Regex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		8218FA5519AADC0400C62234 /* ApkInstallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApkInstallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8218FA5A19AADC0400C62234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8218FA5B19AADC0400C62234 /* ApkInstallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApkInstallerTests.swift; sourceTree = "<group>"; };
+		8218FA7019AAE34F00C62234 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8218FA9D19AB051F00C62234 /* aapt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = aapt; sourceTree = "<group>"; };
+		8218FA9E19AB051F00C62234 /* adb */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = adb; sourceTree = "<group>"; };
+		8218FA9F19AB051F00C62234 /* apk.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = apk.icns; sourceTree = "<group>"; };
+		8218FAA319AB272900C62234 /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +87,12 @@
 		8218FA4219AADC0400C62234 /* ApkInstaller */ = {
 			isa = PBXGroup;
 			children = (
+				8218FA9D19AB051F00C62234 /* aapt */,
+				8218FA9E19AB051F00C62234 /* adb */,
+				8218FA9F19AB051F00C62234 /* apk.icns */,
+				8218FA7019AAE34F00C62234 /* AppDelegate.swift */,
 				8218FA4719AADC0400C62234 /* Document.swift */,
+				8218FAA319AB272900C62234 /* Regex.swift */,
 				8218FA4919AADC0400C62234 /* Document.xib */,
 				8218FA4C19AADC0400C62234 /* Images.xcassets */,
 				8218FA4E19AADC0400C62234 /* MainMenu.xib */,
@@ -156,6 +171,7 @@
 		8218FA3819AADC0400C62234 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Ming;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = MingWang;
 				TargetAttributes = {
@@ -192,9 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8218FAA119AB051F00C62234 /* adb in Resources */,
 				8218FA4B19AADC0400C62234 /* Document.xib in Resources */,
 				8218FA4D19AADC0400C62234 /* Images.xcassets in Resources */,
+				8218FAA019AB051F00C62234 /* aapt in Resources */,
 				8218FA5019AADC0400C62234 /* MainMenu.xib in Resources */,
+				8218FAA219AB051F00C62234 /* apk.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8218FA7119AAE34F00C62234 /* AppDelegate.swift in Sources */,
+				8218FAA419AB272900C62234 /* Regex.swift in Sources */,
 				8218FA4819AADC0400C62234 /* Document.swift in Sources */,
 				8218FA4619AADC0400C62234 /* main.swift in Sources */,
 			);
@@ -339,6 +360,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ApkInstaller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -350,6 +372,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ApkInstaller/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -409,6 +432,7 @@
 				8218FA6119AADC0400C62234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8218FA6219AADC0400C62234 /* Build configuration list for PBXNativeTarget "ApkInstallerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +441,7 @@
 				8218FA6419AADC0400C62234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
