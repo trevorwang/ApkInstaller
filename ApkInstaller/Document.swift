@@ -52,6 +52,7 @@ class Document: NSDocument {
         currentWindow = aController.window
         appLabel.stringValue = appInfo["label"]
         appIcon.image = NSImage(contentsOfFile: appInfo["iconFile"])
+        uninstallOldApk.hidden = true
         let vcode = appInfo["versionCode"]
         let vname = appInfo["versionName"]
         let size = appInfo["size"]
